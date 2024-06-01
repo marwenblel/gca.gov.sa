@@ -1,0 +1,6 @@
+name: 'Site Copyrights'
+type: module
+description: 'Custom module to render the site Copyrights as a block.'
+core_version_requirement: ^10
+package: CUSTOM
+version: 1.0

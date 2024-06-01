@@ -1,0 +1,15 @@
+<?php
+use Drupal\Core\Routing\RouteMatchInterface;
+/**
+ * @file
+ * Site Copyrights module.
+ */
+/**
+ * Implements hook_help().
+ */
+function site_copyrights_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        case 'help.page.site_copyrights':
+            return '<p>' . t('Displays the site copyrights.') . '</p>';
+    }
+}

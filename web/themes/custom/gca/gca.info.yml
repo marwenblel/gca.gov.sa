@@ -21,6 +21,7 @@ regions:
   content: Content
   content_bottom: Content bottom
 
-  footer: Footer
+  footer_first: Footer first
+  footer_second: Footer second
   footer_copyright: 'Footer Copyright'
   footer_gca_logo: 'Footer Logo'
