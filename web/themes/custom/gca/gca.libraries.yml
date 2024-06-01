@@ -1,0 +1,15 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/style.css: {}
+      css/bootstrap/bootstrap.min.css: {}
+      css/pages/home.css: {}
+    layout:
+      css/layout/header.css: {}
+      css/layout/footer.css: {}
+  js:
+    js/gca.js: {}
+    js/bootstrap/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,26 @@
+name: GCA Theme
+type: theme
+description: 'GCA Custom Theme.'
+package: core
+base theme: false
+core_version_requirement: ^10
+libraries:
+  - gca/global-styling
+regions:
+  top_header_right: 'Top header right'
+  top_header_left: 'Top header left'
+  highlighted_header_right: 'Highlighted header right'
+  highlighted_header_left: 'Highlighted header left'
+  middle_header_top: 'Middle header top'
+  middle_header_bottom: 'Middle header bottom'
+  bottom_header: 'Bottom header'
+
+  highlighted: 'Highlighted'
+
+  content_top: Content top
+  content: Content
+  content_bottom: Content bottom
+
+  footer: Footer
+  footer_copyright: 'Footer Copyright'
+  footer_gca_logo: 'Footer Logo'

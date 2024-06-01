@@ -1,0 +1,36 @@
+* {
+  padding: 0 ;
+  margin: 0;
+}
+body,
+html,
+.dialog-off-canvas-main-canvas {
+  height: 100%;
+}
+
+body {
+  font-family: "Frutiger LT Arabic", sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+}
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media screen and (min-width: 1550px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1520px !important;
+  }
+}

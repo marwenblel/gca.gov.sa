@@ -1,0 +1,19 @@
+#footer-wrapper {
+  background-color: #005a4e;
+}
+
+#block-gca-footercopyright-2 p {
+  color: white;
+  margin-bottom: 0 !important;
+}
+
+#footer-wrapper .social_links a svg {
+  width: 20px;
+  height: 20px;
+}
+#footer-wrapper .social_links{
+    gap: 31px;
+}
+.logo-social-links #footer-logo img {
+  height: 95px;
+}

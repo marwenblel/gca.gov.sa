@@ -1,0 +1,282 @@
+/* Importing the font */
+@import url('https://fonts.cdnfonts.com/css/frutiger-lt-arabic');
+/*CSS FOR HEADER TEMPLATE*/
+#header {
+    max-height: 875px;
+    background: #015a4e url('../../images/header-bg-en.png') no-repeat;
+    background-size: cover;
+}
+
+.lang-ar #header {
+    background: #015a4e url('../../images/header-bg-ar.png') no-repeat;
+}
+#header a{
+    font-size: 15px;
+    line-height: 31px;
+    font-weight: 300;
+}
+/*CSS FOR TOP HEADER RIGHT*/
+
+/*CSS FOR BLOCK GCA SITENAME*/
+#top-header-right #block-gca-sitename * {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+/*CSS FOR TOP HEADER LEFT*/
+#top-header-left {
+    padding: 10px;
+}
+#top-header-left .region-top_header_left {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+/*CSS FOR BLOCK GCA Top Bar*/
+#site-name_lang-switcher_toggle-light {
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+/*CSS FOR BLOCK GCA EASYBROWSING*/
+#block-gca-easybrowsing p {
+    margin: 0;
+    padding: 0;
+}
+#block-gca-easybrowsing a {
+    color: #ffffff;
+}
+/*CSS FOR BLOCK GCA LANGUAGESWITCHER*/
+#top-header-left #block-gca-languageswitcher ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#top-header-left #block-gca-languageswitcher ul li {
+    display: inline;
+}
+#top-header-left #block-gca-languageswitcher ul li.is-active {
+    display: none;
+}
+#top-header-left #block-gca-languageswitcher ul li a {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 31px;
+    font-weight: 300;
+}
+/*CSS FOR BLOCK GCA Light-Dark Mode*/
+#block-gca-darkmodeswitcher{
+    width: 42px;
+    height: 23px;  
+}
+.darkmode-switcher .switch {
+    width: 42px;
+    height: 23px;
+}
+.slider.round:before {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun-high" width="12" height="12" viewBox="0 0 24 24" stroke-width="1.5" stroke="%2300CE7C" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656z" /><path d="M6.343 17.657l-1.414 1.414" /><path d="M6.343 6.343l-1.414 -1.414" /><path d="M17.657 6.343l1.414 -1.414" /><path d="M17.657 17.657l1.414 1.414" /><path d="M4 12h-2" /><path d="M12 4v-2" /><path d="M20 12h2" /><path d="M12 20v2" /></svg>');
+}
+.darkmode-switcher .slider:before {
+    height: 19px;
+    width: 19px;
+    left: 2px;
+    bottom: 2px;
+}
+input:checked + .slider:before {
+    transform: translateX(18px);
+}
+/*CSS FOR REGION HIGHTLIGHTED HEADER RIGHT*/
+#highlighted-header-right .region-highlighted_header_right {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+#highlighted-header-right .region-highlighted_header_right nav ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+#highlighted-header-right .region-highlighted_header_right nav ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    opacity: 81%;
+}
+/*CSS FOR REGION HIGHTLIGHTED HEADER LEFT*/
+.region.region-highlighted_header_left .js-form-type-search{
+    display: none;
+}
+/*CSS FOR BLOCK GCA SITELOGO*/
+#block-gca-sitelogo img {
+    width: 170px;
+    height: 74px;
+}
+/*CSS FOR LOGO LENU SEARCH TEMPLATE*/
+#logo_menu_search.row  {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image-source: url(../../images/line.png);
+    border-image-slice: 30;
+    padding-top: 13px;
+    padding-bottom: 8px;
+}
+/*CSS FOR BLOCK GCA SITENAME SLOGAN TEXT*/
+#block-gca-sitename-slogan-text p {
+    color: #ffffff;
+    font-size: 30px;
+}
+/*CSS FOR BLOCK GCA SLOGAN TEXT*/
+#site-slogan{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+#site-slogan .region-middle_header_top p strong{
+    font-size: 50px;
+    line-height: 80px;
+}
+#site-slogan .region-middle_header_top p:nth-child(2){
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 80px;
+}
+/**/
+#electronic-services-slider.row {
+    margin-top: 100px;
+}
+
+
+/* CSS FOR BLOCK ELECTRONIC SERVICES */
+#block-block-electronic-services .row{
+    flex-direction: row !important;
+    align-items: center;
+ }
+ #block-block-electronic-services .row header{
+     order: 1 !important;
+     flex: 0 0 auto;
+     width: 16.66666667%;
+     background-color: #ffffff;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     border: 3px solid rgba(0, 90, 78, 1);
+     box-shadow: 0px 4.88px 8.54px 0px rgba(0, 0, 0, 0.08);
+     border-radius: 24px;
+     height: 143px;
+ }
+ #block-block-electronic-services .row footer{
+     order: 3 !important;
+    flex: 0 0 auto;
+     width: 16.66666667%;
+     background-color: #ffffff;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     border: 3px solid rgba(0, 90, 78, 1);
+     box-shadow: 0px 4.88px 8.54px 0px rgba(0, 0, 0, 0.08);
+     border-radius: 24px;
+     height: 137px;
+ }
+ #block-block-electronic-services .row .content{
+     order: 2 !important;
+     flex: 0 0 auto;
+     width: 66.66666667%;
+ }
+ #block-block-electronic-services .js-view-dom-id-a00b2c364e42c99b0873d70d633ea49b20a78194fa3567e20c90ea91e1651697 {
+     height: 137px!important;
+ }
+#block-block-electronic-services .slick-track {
+    width: 100vw !important;
+    height: 137px !important;
+    overflow-y: hidden;
+}
+#block-block-electronic-services  .more-link {
+    text-align: center;
+
+}
+#block-block-electronic-services  .more-link a {
+    color: rgba(68, 69, 70, 1);
+}
+#block-block-electronic-services .block-content .slick-list {
+    width: 53vw;
+    overflow: hidden;
+}
+#block-block-electronic-services .block-content .slick-next::before,#block-block-electronic-services .block-content .slick-prev::before {
+    width: 24px;
+    content: " ";
+    height:24px;
+    background-image: url('../../icons/prev.svg');
+}
+#block-block-electronic-services .block-content .slick-next::before {
+    rotate: 180deg;
+}
+/* #block-block-electronic-services .block-content .slick-prev::before {
+    background-image: url('../../icons/prev.svg');
+} */
+#block-block-electronic-services .block-content .slick-next,#block-block-electronic-services .block-content .slick-prev {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#block-block-electronic-services  .block-content p {
+    color: #015a4e;
+    font-family: 'Frutiger LT Arabic', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+#block-block-electronic-services  .block-content .footer h3 {
+    color: #015a4e;
+    font-family: 'Frutiger LT Arabic', sans-serif;
+}
+#block-block-electronic-services .block-content .footer p {
+    margin: 0px;
+}
+#block-block-electronic-services .block-content .footer span {
+    /*display: inline-block;*/
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #015a4e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;
+    margin-right: 10px;
+}
+
+/** CSS FOR block-gca-searchform**/
+#block-gca-searchform form {
+    display: flex;
+    gap: 10px;
+}
+#block-gca-searchform input[type="submit"] {
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20class%3D%22icon%20icon-tabler%20icon-tabler-search%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22%23ffffff%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20stroke%3D%22none%22%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22/%3E%3Cpath%20d%3D%22M10%2010m-7%200a7%207%200%201%200%2014%200a7%207%200%201%200-14%200%22/%3E%3Cpath%20d%3D%22M21%2021l-6%20-6%22/%3E%3C/svg%3E');
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+#block-gca-searchform input[type="search"] {
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+}
+
+body.lang-ar.dark-mode #header {
+    background-image: url('../../images/header-bg-ar-n.png')!important;
+}
+body.lang-en.dark-mode #header {
+    background-image: url('../../images/header-bg-en-n.png')!important;
+}
